@@ -1,0 +1,19 @@
+@import "../Authorization/components/loginForm.module.scss";
+@import "../Authorization/components/authorizationInputForm.module.scss";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background: #e7efec;
+  color: #2f2f2f;
+}
+
+#root {
+  min-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

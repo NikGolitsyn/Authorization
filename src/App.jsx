@@ -1,11 +1,7 @@
 import React from "react";
+import "./styles/index.scss";
+import LoginForm from "./Authorization/components/LoginForm.jsx";
 
-const App = () => (
-  <h1>
-    A man can have anything if he is willing to sacrifice. With your birth comes
-    a solemn vow: You will have nothing! Your privilage is the dirt! In the
-    darkness, only ambitions will guid you.
-  </h1>
-);
+const App = () => <LoginForm />;
 
 export default App;
